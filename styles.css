@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+header {
+  background-color: #222;
+  text-align: center;
+  padding: 30px 20px;
+}
+.intro, .services, .contact {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h1, h2 {
+  color: #00bfff;
+}
+.card {
+  background-color: #1c1c1c;
+  border: 1px solid #00bfff;
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #00bfff88;
+}
+.detail {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card:hover .detail {
+  opacity: 1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  background-color: #00bfff;
+  color: #111;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00aaff;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #888;
+}
